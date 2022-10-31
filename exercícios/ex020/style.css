@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: brown;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: springgreen;
+}
+
+.especial::before {
+    content: '⇒';
+}
+
+.especial::after {
+    content: '⇒';
+}
+
+a::before {
+    content: '⇒';
+}
+
+a::after {
+    content: '⇒';
+}
